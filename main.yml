@@ -47,3 +47,4 @@ jobs:
           subscription-token: ${{ secrets.ASC_AUTH_TOKEN }}
           # Do not modify ${{ steps.container-scan.outputs.scan-report-path }} as it uses this path by default in Version 0.1
           scan-results-path: ${{ steps.container-scan.outputs.scan-report-path }}
+          # change made
